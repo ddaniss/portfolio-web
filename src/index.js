@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import GlobalStyle from "./shared/globalStyle";
 import Nav from "./app/Nav";
 import Home from "./app/Home";
