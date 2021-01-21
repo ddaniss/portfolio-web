@@ -33,6 +33,9 @@ export const Menu = styled.ul`
   list-style: none;
   display: flex;
   align-items: center;
+  @media (max-width: 1095px) {
+    display: none;
+  }
 `;
 
 export const MenuItem = styled.a`
