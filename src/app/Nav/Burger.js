@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import VerticalMenu from "./VerticalMenu";
+import { VMenu, VMenuItem } from "./VerticalMenu";
 
 const StyledBurger = styled.div`
   width: 2rem;
@@ -45,7 +45,21 @@ const Burger = () => {
         <div />
         <div />
       </StyledBurger>
-      <VerticalMenu open={open} />
+      {/* <VerticalMenu open={open} /> */}
+      <VMenu open={open}>
+        <VMenuItem onClick={() => setOpen(!open)} href="#about">
+          SOBRE MÍ
+        </VMenuItem>
+        <VMenuItem onClick={() => setOpen(!open)} href="#tecnologías">
+          TECNOLOGÍAS
+        </VMenuItem>
+        <VMenuItem onClick={() => setOpen(!open)} href="#portfolio">
+          PORTFOLIO
+        </VMenuItem>
+        <VMenuItem onClick={() => setOpen(!open)} href="#contacto">
+          CONTACTO
+        </VMenuItem>
+      </VMenu>
     </>
   );
 };
