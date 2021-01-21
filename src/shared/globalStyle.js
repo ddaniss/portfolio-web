@@ -7,6 +7,9 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Playfair Display', serif;
     }
+    html{
+        scroll-behavior: smooth;
+    }
 `;
 
 export default GlobalStyle;

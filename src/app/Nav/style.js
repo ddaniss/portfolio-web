@@ -14,6 +14,12 @@ export const Header = styled.nav`
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 999;
+
+  @media (max-width: 1485px) {
+    padding-top: 1.2em;
+    padding-left: 2.3em;
+  }
 `;
 
 export const Logo = styled.a`

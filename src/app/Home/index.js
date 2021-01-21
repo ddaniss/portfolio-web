@@ -6,6 +6,7 @@ import {
   Subtitle,
   Title,
   ContactButton,
+  Arrow,
 } from "./style";
 
 function Home() {
@@ -21,6 +22,9 @@ function Home() {
         <Subtitle>DESARROLLADOR WEB</Subtitle>
         <ContactButton>CONTACTO</ContactButton>
       </Container>
+      <a href="#about">
+        <Arrow />
+      </a>
     </HomeContainer>
   );
 }

@@ -1,46 +1,18 @@
 import styled from "styled-components";
 
-// export const Header = styled.nav`
-//   display: flex;
-//   justify-content: space-between;
-//   align-content: center;
-
-//   background-color: #000;
-//   height: 100px;
-//   width: 100%;
-//   padding: 1.5em 6em;
-
-//   position: sticky;
-//   top: 0;
-//   left: 0;
-
-//   @media (max-width: 768px) {
-//     justify-content: unset;
-//     flex-flow: column nowrap;
-//     height: 100vh;
-//   }
-// `;
-
-// export const Logo = styled.a`
-//   text-decoration: none;
-//   font-size: 45px;
-//   font-weight: 400;
-//   color: #fff;
-//   cursor: pointer;
-
-//   &:focus {
-//     outline: solid;
-//     padding: 0.1em;
-//   }
-// `;
-
 export const VMenu = styled.ul`
   background-color: #000;
+  min-height: fit-content;
   height: 100vh;
   width: 100%;
   z-index: -10;
   list-style: none;
+
   display: ${({ open }) => (open ? "flex" : "none")};
+  visibility: ${({ open }) => (open ? "visible" : "hidden")};
+  opacity: ${({ open }) => (open ? 1 : 0)};
+  transition: visibility 0s, opacity 0.5s linear;
+
   align-items: center;
   flex-flow: column nowrap;
   position: absolute;
@@ -58,7 +30,6 @@ export const VMenuItem = styled.a`
 
   margin: 0 auto;
   margin-top: 3em;
-  transition: scale 1s ease-in-out;
 
   &:nth-child(1) {
     margin-top: 5em;

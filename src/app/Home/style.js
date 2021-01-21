@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ArrowDown } from "@styled-icons/feather/ArrowDown";
 
 export const HomeContainer = styled.section`
   background-color: #000;
@@ -8,13 +9,32 @@ export const HomeContainer = styled.section`
   @media (min-width: 1485px) {
     flex-flow: row-reverse;
   }
+
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: #fff;
+  }
+`;
+
+export const Arrow = styled(ArrowDown)`
+  height: 50px;
+  width: auto;
+  bottom: 25px;
+  left: 50%;
+  position: absolute;
+  @media (max-width: 1485px) {
+    left: 44%;
+  }
 `;
 
 export const Container = styled.div`
   display: grid;
   place-content: center;
   height: 58.85vh;
-  padding-bottom: 9em;
+  padding-bottom: 8.5em;
   @media (min-width: 1485px) {
     height: calc(100vh - 100px);
     padding: 0;
@@ -28,11 +48,12 @@ export const MoonContainer = styled(Container)`
   background-size: 110%;
   background-position: start;
   background-repeat: no-repeat;
-  background-position: 40% 70%;
+  background-position: 40% 25%;
   height: 30vh;
   @media (min-width: 1485px) {
     width: 70vw;
     height: calc(100vh - 100px);
+    background-position: 40% 20%;
     background-size: cover;
   }
 `;
@@ -64,13 +85,14 @@ export const ContactButton = styled.button`
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
-  font-size: inherit;
+  font-size: 22px;
   line-height: 1;
   background: none;
   border: 0;
-  padding: 1em 1.5em;
+  padding: 0.8rem 1.5rem;
   margin-top: 1.5em;
-  width: 50%;
+  width: 45%;
+  font-weight: 100;
 
   color: #fff;
   border: 2px solid #fff;
@@ -80,5 +102,8 @@ export const ContactButton = styled.button`
 
   &:hover {
     outline-offset: -6px;
+  }
+  @media (max-width: 1485px) {
+    font-size: inherit;
   }
 `;
