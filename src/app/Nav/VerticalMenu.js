@@ -57,8 +57,12 @@ export const VMenuItem = styled.a`
   position: relative;
 
   margin: 0 auto;
-  margin-top: 5em;
+  margin-top: 3em;
   transition: scale 1s ease-in-out;
+
+  &:nth-child(1) {
+    margin-top: 5em;
+  }
 
   &::after {
     scale: 0;

@@ -1,7 +1,28 @@
 import React from "react";
+import {
+  Container,
+  MoonContainer,
+  HomeContainer,
+  Subtitle,
+  Title,
+  ContactButton,
+} from "./style";
 
 function Home() {
-  return <div></div>;
+  return (
+    <HomeContainer>
+      <MoonContainer />
+      <Container>
+        <Title>
+          Douglas Daniel
+          <br />
+          Sulbarán Socas
+        </Title>
+        <Subtitle>DESARROLLADOR WEB</Subtitle>
+        <ContactButton>CONTACTO</ContactButton>
+      </Container>
+    </HomeContainer>
+  );
 }
 
 export default Home;
