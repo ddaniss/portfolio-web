@@ -5,7 +5,7 @@ export const TechContainer = styled.section`
   width: 100%;
   /* background-image: url("./images/bgTech.jpg");
   background-position: start; */
-  background-color: #1151;
+  background-color: #9993;
   padding: 10em 0;
   margin-top: -100px;
   @media (min-width: 1485px) {
