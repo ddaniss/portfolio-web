@@ -39,6 +39,7 @@ export const Menu = styled.ul`
   list-style: none;
   display: flex;
   align-items: center;
+
   @media (max-width: 1095px) {
     display: none;
   }
@@ -46,10 +47,11 @@ export const Menu = styled.ul`
 
 export const MenuItem = styled.a`
   text-decoration: none;
-  font-size: 22px;
+  font-size: 24px;
   color: #fff;
   cursor: pointer;
   position: relative;
+  font-family: "Kanit", sans-serif;
 
   margin-left: 4em;
   transition: scale 1s ease-in-out;
