@@ -5,11 +5,12 @@ export const TechContainer = styled.section`
   width: 100%;
   /* background-image: url("./images/bgTech.jpg");
   background-position: start; */
-  background-color: #9993;
+  background-color: #7772;
   padding: 10em 0;
   margin-top: -100px;
   @media (min-width: 1485px) {
     max-height: 100vh;
+    background-color: #0000;
   }
 `;
 
