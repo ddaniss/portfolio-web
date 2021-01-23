@@ -1,8 +1,64 @@
 import React from "react";
-import { ProjectsContainer } from "./style";
+import {
+  Description,
+  InfoContainer,
+  Links,
+  Name,
+  Picture,
+  ProjectCard,
+  ProjectGallery,
+  ProjectsContainer,
+  TechContainer,
+  TechName,
+  TechTitle,
+  Title,
+} from "./style";
 
 function Proyectos() {
-  return <ProjectsContainer id="portfolio">PROYECTOS</ProjectsContainer>;
+  return (
+    <ProjectsContainer id="portfolio">
+      <Title>Proyectos</Title>
+      <ProjectGallery>
+        <ProjectCard>
+          <Name>Entradas</Name>
+          <Picture src="./images/entradas.png" />
+          <InfoContainer>
+            <Description>
+              "Entradas" es un blog hecho para reforzar los conocimientos de
+              MySQL y PHP. Con registro de usuarios y comentarios.
+            </Description>
+            <TechContainer>
+              <Links>Web</Links>
+              <Links>Código</Links>
+              <TechTitle>Tecnologías usadas:</TechTitle>
+              <TechName>HTML</TechName>
+              <TechName>CSS</TechName>
+              <TechName>MySQL</TechName>
+              <TechName>PHP</TechName>
+            </TechContainer>
+          </InfoContainer>
+        </ProjectCard>
+        <ProjectCard>
+          <Name>Calculadura</Name>
+          <Picture src="./images/calculadora.png" />
+          <InfoContainer>
+            <Description>
+              {" "}
+              Proyecto para reforzar los conocimientos de SCSS y Javascript.
+            </Description>
+            <TechContainer>
+              <Links>Web</Links>
+              <Links>Código</Links>
+              <TechTitle>Tecnologías usadas:</TechTitle>
+              <TechName>HTML</TechName>
+              <TechName>SCSS</TechName>
+              <TechName>Javascript</TechName>
+            </TechContainer>
+          </InfoContainer>
+        </ProjectCard>
+      </ProjectGallery>
+    </ProjectsContainer>
+  );
 }
 
 export default Proyectos;

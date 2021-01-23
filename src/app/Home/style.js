@@ -26,7 +26,7 @@ export const Arrow = styled(ArrowDown)`
   left: 50%;
   position: absolute;
   @media (max-width: 1485px) {
-    left: 44%;
+    left: 50%;
   }
 `;
 

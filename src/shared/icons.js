@@ -3,8 +3,8 @@ import { ReactLogo } from "@styled-icons/boxicons-logos/ReactLogo";
 import { StyledComponents } from "@styled-icons/simple-icons/StyledComponents";
 import { Css3 } from "@styled-icons/boxicons-logos/Css3";
 import { Html5 } from "@styled-icons/boxicons-logos/Html5";
-import { Java } from "@styled-icons/fa-brands/Java";
-import { Spring } from "@styled-icons/simple-icons/Spring";
+import { Django } from "@styled-icons/simple-icons/Django";
+import { Python } from "@styled-icons/simple-icons/Python";
 import { Javascript } from "@styled-icons/boxicons-logos/Javascript";
 import { Php } from "@styled-icons/simple-icons/Php";
 import { Laravel } from "@styled-icons/simple-icons/Laravel";
@@ -34,11 +34,11 @@ export const JsIcon = styled(Javascript)`
   ${basicIcon};
 `;
 
-export const SpringIcon = styled(Spring)`
+export const DjangoIcon = styled(Django)`
   ${basicIcon};
 `;
 
-export const JavaIcon = styled(Java)`
+export const PythonIcon = styled(Python)`
   ${basicIcon};
 `;
 

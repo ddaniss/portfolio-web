@@ -8,8 +8,8 @@ import {
   JsIcon,
   PhpIcon,
   LaravelIcon,
-  JavaIcon,
-  SpringIcon,
+  PythonIcon,
+  DjangoIcon,
   LinuxIcon,
 } from "../../shared/icons";
 import {
@@ -63,12 +63,12 @@ function Tech() {
             <Name>Laravel</Name>
           </IconContainer>
           <IconContainer>
-            <SpringIcon />
-            <Name>Spring</Name>
+            <PythonIcon />
+            <Name>Python</Name>
           </IconContainer>
           <IconContainer>
-            <JavaIcon />
-            <Name>Java</Name>
+            <DjangoIcon />
+            <Name>Django</Name>
           </IconContainer>
         </IconsContainer>
       </TechContainer>
