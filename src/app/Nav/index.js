@@ -1,17 +1,18 @@
 import React from "react";
 import Burger from "./Burger";
-import { Header, Logo, Menu, MenuItem } from "./style";
+import { Header, Logo, Logo2, Menu, MenuItem } from "./style";
 
 function Nav() {
   return (
     <Header>
       <Logo href="#home">DS</Logo>
+      <Logo2 href="#home">DS</Logo2>
       <Burger />
       <Menu>
-        <MenuItem href="#about">SOBRE MÍ</MenuItem>
-        <MenuItem href="#tecnologías">TECNOLOGÍAS</MenuItem>
-        <MenuItem href="#portfolio">PORTFOLIO</MenuItem>
-        <MenuItem href="#contacto">CONTACTO</MenuItem>
+        <MenuItem href="#about">Sobre mí</MenuItem>
+        <MenuItem href="#tecnologías">Tecnologías</MenuItem>
+        <MenuItem href="#portfolio">Portfolio</MenuItem>
+        <MenuItem href="#contacto">Contacto</MenuItem>
       </Menu>
     </Header>
   );

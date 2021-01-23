@@ -57,6 +57,8 @@ export const Title = styled.h3`
   font-weight: 10;
   text-align: center;
   margin-bottom: 1rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 100;
 
   @media (min-width: 1485px) {
     padding: 3rem 0;
@@ -163,6 +165,7 @@ export const SocialContainer = styled.div`
 
   @media (min-width: 1485px) {
     padding: 0;
+    padding-bottom: 1rem;
     width: 100px;
     margin: 0 auto;
   }

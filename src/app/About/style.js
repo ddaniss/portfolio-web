@@ -27,7 +27,9 @@ export const Container = styled.div`
 export const Title = styled.h3`
   font-size: 36px;
   color: #000;
-  font-style: italic;
+  font-family: "Playfair Display", serif;
+  font-weight: 100;
+  /* font-style: italic; */
   margin-bottom: 0.5em;
   padding: 0 2rem;
   @media (min-width: 1485px) {

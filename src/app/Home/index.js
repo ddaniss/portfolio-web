@@ -20,7 +20,7 @@ function Home() {
           Sulbarán Socas
         </Title>
         <Subtitle>DESARROLLADOR WEB</Subtitle>
-        <ContactButton>CONTACTO</ContactButton>
+        <ContactButton href="#contacto">CONTACTO</ContactButton>
       </Container>
       <a href="#about">
         <Arrow />

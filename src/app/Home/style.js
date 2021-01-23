@@ -63,7 +63,8 @@ export const Title = styled.h1`
   font-size: 50px;
   font-weight: 100;
   line-height: 1.05em;
-  letter-spacing: -3px;
+  font-family: "Playfair Display", serif;
+
   @media (min-width: 1485px) {
     font-size: 74px;
   }
@@ -75,24 +76,26 @@ export const Subtitle = styled.p`
   font-weight: 100;
   font-family: "Kanit", sans-serif;
   line-height: 1.3em;
-  letter-spacing: -1.6px;
+  /* letter-spacing: -1.6px; */
   @media (min-width: 1485px) {
-    font-size: 49.45px;
+    font-size: 50.5px;
   }
 `;
 
-export const ContactButton = styled.button`
+export const ContactButton = styled.a`
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
+  text-align: center;
   font-size: 22px;
-  line-height: 1;
+  line-height: 1.2;
   background: none;
   border: 0;
   padding: 0.8rem 1.5rem;
   margin-top: 1.5em;
-  width: 45%;
-  font-weight: 100;
+  width: 40%;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
 
   color: #fff;
   border: 2px solid #fff;
@@ -103,6 +106,11 @@ export const ContactButton = styled.button`
   &:hover {
     outline-offset: -6px;
   }
+
+  &:focus {
+    outline-offset: -6px;
+  }
+
   @media (max-width: 1485px) {
     font-size: inherit;
   }

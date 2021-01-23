@@ -22,16 +22,40 @@ export const Header = styled.nav`
   }
 `;
 
-export const Logo = styled.a`
+export const Logo = styled.p`
   text-decoration: none;
-  font-size: 45px;
-  font-weight: 400;
+  font-size: 35px;
+  font-weight: 100;
   color: #fff;
   cursor: pointer;
+  font-family: "Playfair Display", serif;
+
+  transition: all 0.2s ease-in;
+`;
+
+export const Logo2 = styled.a`
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: 100;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Playfair Display", serif;
+  position: absolute;
+  z-index: 999;
+
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    letter-spacing: 42px;
+    margin-left: -23px;
+    font-weight: 100;
+  }
 
   &:focus {
-    outline: solid;
-    padding: 0.1em;
+    outline: none;
+    letter-spacing: 42px;
+    margin-left: -23px;
+    font-weight: 100;
   }
 `;
 
@@ -39,6 +63,7 @@ export const Menu = styled.ul`
   list-style: none;
   display: flex;
   align-items: center;
+  padding-right: 1.8rem;
 
   @media (max-width: 1095px) {
     display: none;
@@ -52,37 +77,30 @@ export const MenuItem = styled.a`
   cursor: pointer;
   position: relative;
   font-family: "Kanit", sans-serif;
+  font-weight: 100;
 
   margin-left: 4em;
-  transition: scale 1s ease-in-out;
-
-  &::after {
-    scale: 0;
-  }
-
-  &:hover::after {
-    content: "";
-    position: absolute;
-    bottom: -4.5px;
-    left: 0;
-    height: 1px;
-    width: 100%;
-    background-color: #fff;
-    scale: 1;
-  }
 
   &:focus {
     outline: none;
   }
 
-  &:focus::after {
+  &::after {
+    transition: all 0.3s ease-in;
     content: "";
     position: absolute;
-    bottom: -34.5px;
-    left: 0;
-    height: 1px;
-    width: 100%;
+    bottom: -1.5px;
+    right: -1.5px;
     background-color: #fff;
-    scale: 1;
+    height: 0.9px;
+    width: 0%;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+
+  &:focus::after {
+    width: 100%;
   }
 `;

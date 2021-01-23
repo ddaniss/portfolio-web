@@ -56,6 +56,8 @@ export const Title = styled.h3`
   text-justify: center;
   margin: 0 auto;
   margin-top: -2rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 100;
   @media (min-width: 1485px) {
     margin-top: 2rem;
     font-size: 38px;

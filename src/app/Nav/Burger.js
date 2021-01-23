@@ -48,16 +48,16 @@ const Burger = () => {
       {/* <VerticalMenu open={open} /> */}
       <VMenu open={open}>
         <VMenuItem onClick={() => setOpen(!open)} href="#about">
-          SOBRE MÍ
+          Sobre mí
         </VMenuItem>
         <VMenuItem onClick={() => setOpen(!open)} href="#tecnologías">
-          TECNOLOGÍAS
+          Tecnologías
         </VMenuItem>
         <VMenuItem onClick={() => setOpen(!open)} href="#portfolio">
-          PORTFOLIO
+          Portfolio
         </VMenuItem>
         <VMenuItem onClick={() => setOpen(!open)} href="#contacto">
-          CONTACTO
+          Contacto
         </VMenuItem>
       </VMenu>
     </>

@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Raleway', sans-serif;
     }
     html{
         scroll-behavior: smooth;

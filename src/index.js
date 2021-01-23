@@ -18,5 +18,5 @@ ReactDOM.render(
     <Proyectos />
     <Contacto />
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById("home")
 );
