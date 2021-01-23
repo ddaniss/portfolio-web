@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { ReactLogo } from "@styled-icons/boxicons-logos/ReactLogo";
-import { StyledComponents } from "@styled-icons/simple-icons/StyledComponents";
 import { Css3 } from "@styled-icons/boxicons-logos/Css3";
 import { Html5 } from "@styled-icons/boxicons-logos/Html5";
+import { Database } from "@styled-icons/feather/Database";
 import { Django } from "@styled-icons/simple-icons/Django";
 import { Python } from "@styled-icons/simple-icons/Python";
 import { Javascript } from "@styled-icons/boxicons-logos/Javascript";
@@ -15,11 +15,8 @@ export const ReactIcon = styled(ReactLogo)`
   ${basicIcon};
 `;
 
-export const StyledComponentsIcon = styled(StyledComponents)`
+export const MysqlIcon = styled(Database)`
   ${basicIcon};
-  height: 60px;
-  width: 60px;
-  place-self: top;
 `;
 
 export const CssIcon = styled(Css3)`

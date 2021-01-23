@@ -32,18 +32,18 @@ export const IconContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  &:nth-child(5) {
+  /* &:nth-child(5) {
     margin-top: 18px;
-  }
+  } */
 `;
 
 export const Name = styled.p`
   color: #fff;
   font-size: 18px;
   text-align: center;
-  &:nth-child(6) {
+  /* &:nth-child(6) {
     font-size: 6px;
-  }
+  } */
   @media (min-width: 1485px) {
     font-size: 24px;
   }

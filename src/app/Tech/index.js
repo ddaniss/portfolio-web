@@ -11,6 +11,7 @@ import {
   PythonIcon,
   DjangoIcon,
   LinuxIcon,
+  MysqlIcon,
 } from "../../shared/icons";
 import {
   IconContainer,
@@ -41,18 +42,8 @@ function Tech() {
             <Name>Javascript</Name>
           </IconContainer>
           <IconContainer>
-            <LinuxIcon />
-            <Name>Linux</Name>
-          </IconContainer>
-          <IconContainer>
             <ReactIcon />
             <Name>React</Name>
-          </IconContainer>
-          <IconContainer>
-            <StyledComponentsIcon />
-            <Name>
-              Styled <br /> Components
-            </Name>
           </IconContainer>
           <IconContainer>
             <PhpIcon />
@@ -61,6 +52,14 @@ function Tech() {
           <IconContainer>
             <LaravelIcon />
             <Name>Laravel</Name>
+          </IconContainer>
+          <IconContainer>
+            <LinuxIcon />
+            <Name>Linux</Name>
+          </IconContainer>
+          <IconContainer>
+            <MysqlIcon />
+            <Name>MySQL</Name>
           </IconContainer>
           <IconContainer>
             <PythonIcon />
