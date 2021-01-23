@@ -5,7 +5,7 @@ export const TechContainer = styled.section`
   width: 100%;
   /* background-image: url("./images/bgTech.jpg");
   background-position: start; */
-  /* background-color: #3336; */
+  background-color: #1119;
   padding: 10em 0;
   margin-top: -100px;
   @media (min-width: 1485px) {
@@ -32,18 +32,13 @@ export const IconContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* &:nth-child(5) {
-    margin-top: 18px;
-  } */
 `;
 
 export const Name = styled.p`
   color: #fff;
   font-size: 18px;
   text-align: center;
-  /* &:nth-child(6) {
-    font-size: 6px;
-  } */
+
   @media (min-width: 1485px) {
     font-size: 24px;
   }
@@ -56,6 +51,7 @@ export const Title = styled.h3`
   text-justify: center;
   margin: 0 auto;
   margin-top: -2rem;
+  margin-bottom: 3.5rem;
   font-family: "Playfair Display", serif;
   font-weight: 100;
   @media (min-width: 1485px) {
