@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.section`
-  height: 150vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -17,10 +17,11 @@ export const Container = styled.div`
   display: grid;
   place-content: center;
   height: 50vh;
+  padding-top: 10em;
 
   @media (min-width: 1485px) {
     height: 100vh;
-    width: 50%;
+    width: 20%;
   }
 `;
 
@@ -32,8 +33,13 @@ export const Title = styled.h3`
   /* font-style: italic; */
   margin-bottom: 0.5em;
   padding: 0 2rem;
+
+  margin-top: -150px;
+
   @media (min-width: 1485px) {
-    padding: 0 8rem;
+    padding-left: 4.3rem;
+    margin-top: 0px;
+    margin-left: -400px;
   }
 `;
 
@@ -41,23 +47,27 @@ export const Paragraph = styled.p`
   font-size: 18px;
   color: #000;
   text-align: justify;
-  line-height: 250%;
+  line-height: 1.5rem;
   padding: 0 2rem;
 
+  margin-top: -90px;
+
   @media (min-width: 1485px) {
-    width: 80%;
+    width: 140%;
     margin: 0 auto;
+    margin-top: 0px;
+    margin-left: -360px;
   }
 `;
 
 export const PortraitContainer = styled.div`
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 100%;
   background-color: #808080;
 
   @media (min-width: 1485px) {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
   }
 `;
