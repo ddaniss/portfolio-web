@@ -26,9 +26,20 @@ export const ProjectGallery = styled.div`
   /* align-items: center; */
 
   padding: 0 2rem;
+
+  @media (min-width: 1485px) {
+    display: grid;
+    /* grid-gap: 1rem; */
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  }
 `;
 
-export const ProjectCard = styled.div``;
+export const ProjectCard = styled.div`
+  @media (min-width: 1485px) {
+    width: 70%;
+    margin: 0 auto;
+  }
+`;
 
 export const Picture = styled.img`
   height: auto;

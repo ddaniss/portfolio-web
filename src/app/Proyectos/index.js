@@ -17,7 +17,7 @@ import {
 function Proyectos() {
   return (
     <ProjectsContainer id="portfolio">
-      <Title>Proyectos</Title>
+      <Title>Portfolio</Title>
       <ProjectGallery>
         <ProjectCard>
           <Name>Entradas</Name>
@@ -56,7 +56,7 @@ function Proyectos() {
           </InfoContainer>
         </ProjectCard>
         <ProjectCard>
-          <Name>Entradas</Name>
+          <Name>Portfolio web</Name>
           <Picture src="./images/portfolio-web.png" />
           <InfoContainer>
             <Description>
