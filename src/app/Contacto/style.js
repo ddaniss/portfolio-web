@@ -143,6 +143,9 @@ export const GithubLink = styled(GithubSquare)`
   height: auto;
   width: 25px;
 
+  @media (min-width: 575px) {
+    width: 40px;
+  }
   @media (min-width: 1485px) {
     width: 40px;
   }
@@ -153,6 +156,9 @@ export const LinkedinLink = styled(Linkedin)`
   height: auto;
   width: 25px;
 
+  @media (min-width: 575px) {
+    width: 40px;
+  }
   @media (min-width: 1485px) {
     width: 40px;
   }
@@ -163,6 +169,12 @@ export const SocialContainer = styled.div`
   padding: 0 8rem;
   align-items: center;
 
+  @media (min-width: 575px) {
+    padding: 0;
+    padding-bottom: 1rem;
+    width: 100px;
+    margin: 0 auto;
+  }
   @media (min-width: 1485px) {
     padding: 0;
     padding-bottom: 1rem;

@@ -19,6 +19,11 @@ export const Container = styled.div`
   height: 50vh;
   padding-top: 10em;
 
+  @media (min-width: 575px) {
+    height: 50vh;
+    width: 50%;
+    margin: 0 auto;
+  }
   @media (min-width: 1485px) {
     height: 100vh;
     width: 20%;
@@ -36,6 +41,9 @@ export const Title = styled.h3`
 
   margin-top: -150px;
 
+  @media (min-width: 575px) {
+    margin-top: -300px;
+  }
   @media (min-width: 1485px) {
     padding-left: 4.3rem;
     margin-top: 0px;
@@ -52,6 +60,10 @@ export const Paragraph = styled.p`
 
   margin-top: -90px;
 
+  @media (min-width: 575px) {
+    width: 100%;
+    margin-top: -250px;
+  }
   @media (min-width: 1485px) {
     width: 140%;
     margin: 0 auto;

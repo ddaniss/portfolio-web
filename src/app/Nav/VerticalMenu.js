@@ -35,49 +35,29 @@ export const VMenuItem = styled.a`
   margin-top: 3em;
 
   &:nth-child(1) {
-    margin-top: 5em;
-  }
-
-  &::after {
-    scale: 0;
-  }
-
-  &:hover::after {
-    content: "";
-    position: absolute;
-    bottom: -4.5px;
-    left: 0;
-    height: 1px;
-    width: 100%;
-    background-color: #fff;
-    scale: 1;
+    margin-top: 10em;
   }
 
   &:focus {
     outline: none;
   }
 
-  &:focus::after {
+  &::after {
+    transition: all 0.3s ease-in;
     content: "";
     position: absolute;
-    bottom: -34.5px;
-    left: 0;
-    height: 1px;
-    width: 100%;
+    bottom: -1.5px;
+    right: -1.5px;
     background-color: #fff;
-    scale: 1;
+    height: 0.9px;
+    width: 0%;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+
+  &:focus::after {
+    width: 100%;
   }
 `;
-
-// const VerticalMenu = ({ open }) => {
-//   return (
-//     <VMenu open={open}>
-//       <VMenuItem href="#about">SOBRE MÍ</VMenuItem>
-//       <VMenuItem href="#tecnologías">TECNOLOGÍAS</VMenuItem>
-//       <VMenuItem href="#portfolio">PORTFOLIO</VMenuItem>
-//       <VMenuItem href="#contacto">CONTACTO</VMenuItem>
-//     </VMenu>
-//   );
-// };
-
-// export default VerticalMenu;

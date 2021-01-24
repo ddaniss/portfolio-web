@@ -20,6 +20,11 @@ export const IconsContainer = styled.div`
   grid-column-gap: 0rem;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   margin-top: 2rem;
+  @media (min-width: 575px) {
+    grid-gap: 2rem 0rem;
+    width: 65%;
+    margin: 0 auto;
+  }
   @media (min-width: 1485px) {
     grid-gap: 4rem 5rem;
     width: 65%;
@@ -54,6 +59,10 @@ export const Title = styled.h3`
   margin-bottom: 3.5rem;
   font-family: "Playfair Display", serif;
   font-weight: 100;
+  @media (min-width: 575px) {
+    margin-top: 2rem;
+    font-size: 38px;
+  }
   @media (min-width: 1485px) {
     margin-top: 2rem;
     font-size: 38px;
