@@ -43,7 +43,6 @@ function Proyectos() {
           <Picture src="./images/calculadora.png" />
           <InfoContainer>
             <Description>
-              {" "}
               Proyecto para reforzar los conocimientos de SCSS y Javascript.
             </Description>
             <TechContainer>
@@ -53,6 +52,25 @@ function Proyectos() {
               <TechName>HTML</TechName>
               <TechName>SCSS</TechName>
               <TechName>Javascript</TechName>
+            </TechContainer>
+          </InfoContainer>
+        </ProjectCard>
+        <ProjectCard>
+          <Name>Entradas</Name>
+          <Picture src="./images/portfolio-web.png" />
+          <InfoContainer>
+            <Description>
+              Este portfolio ha sido creado usando React, Styled Components y
+              otras varias librerías de React.
+            </Description>
+            <TechContainer>
+              <Links>Web</Links>
+              <Links>Código</Links>
+              <TechTitle>Tecnologías usadas:</TechTitle>
+              <TechName>React</TechName>
+              <TechName>Styled Components</TechName>
+              <TechName>HTML</TechName>
+              <TechName>CSS</TechName>
             </TechContainer>
           </InfoContainer>
         </ProjectCard>

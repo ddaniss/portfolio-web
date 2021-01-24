@@ -23,9 +23,9 @@ export const Arrow = styled(ArrowDown)`
   height: 50px;
   width: auto;
   bottom: 25px;
-  left: 50%;
+  left: 42.5%;
   position: absolute;
-  @media (max-width: 1485px) {
+  @media (min-width: 1485px) {
     left: 50%;
   }
 `;

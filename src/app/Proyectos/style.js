@@ -25,7 +25,7 @@ export const ProjectGallery = styled.div`
   flex-direction: column;
   /* align-items: center; */
 
-  padding: 0 3rem;
+  padding: 0 2rem;
 `;
 
 export const ProjectCard = styled.div``;
