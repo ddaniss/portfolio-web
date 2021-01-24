@@ -3,7 +3,6 @@ import { Parallax } from "react-parallax";
 import {
   CssIcon,
   ReactIcon,
-  StyledComponentsIcon,
   Html5Icon,
   JsIcon,
   PhpIcon,
