@@ -28,9 +28,11 @@ export const ProjectGallery = styled.div`
   padding: 0 2rem;
 
   @media (min-width: 1485px) {
-    display: grid;
+    width: 60%;
+    margin: 0 auto;
+    /* display: grid; */
     /* grid-gap: 1rem; */
-    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)); */
   }
 `;
 
@@ -44,13 +46,6 @@ export const ProjectCard = styled.div`
 export const Picture = styled.img`
   height: auto;
   width: 100%;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease-in;
-  /* border: 3px solid red; */
-
-  &:hover {
-    filter: grayscale(0%);
-  }
 `;
 
 export const InfoContainer = styled.div`

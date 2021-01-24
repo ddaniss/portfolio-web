@@ -21,7 +21,7 @@ function Proyectos() {
       <ProjectGallery>
         <ProjectCard>
           <Name>Entradas</Name>
-          <Picture src="./images/entradas.png" />
+          <Picture src="./images/entradas-mockup.jpg" />
           <InfoContainer>
             <Description>
               "Entradas" es un blog hecho para reforzar los conocimientos de
@@ -40,7 +40,7 @@ function Proyectos() {
         </ProjectCard>
         <ProjectCard>
           <Name>Calculadura</Name>
-          <Picture src="./images/calculadora.png" />
+          <Picture src="./images/calculadora-mockup.jpg" />
           <InfoContainer>
             <Description>
               Proyecto para reforzar los conocimientos de SCSS y Javascript.
@@ -57,7 +57,7 @@ function Proyectos() {
         </ProjectCard>
         <ProjectCard>
           <Name>Portfolio web</Name>
-          <Picture src="./images/portfolio-web.png" />
+          <Picture src="./images/portfolio-mockup.jpg" />
           <InfoContainer>
             <Description>
               Este portfolio ha sido creado usando React, Styled Components y

@@ -77,6 +77,10 @@ export const PortraitContainer = styled.div`
   height: 250px;
   border-radius: 100%;
   background-color: #808080;
+  background-image: url("./images/ddss.jpeg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
 
   @media (min-width: 1485px) {
     width: 400px;
