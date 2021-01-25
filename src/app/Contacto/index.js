@@ -31,7 +31,7 @@ function Contacto() {
           <ContactLink href="https://github.com/ddaniss">
             <GithubLink />
           </ContactLink>
-          <ContactLink href="">
+          <ContactLink href="https://www.linkedin.com/in/douglas-daniel-sulbar%C3%A1n-socas-4600b2205/">
             <LinkedinLink />
           </ContactLink>
         </SocialContainer>
