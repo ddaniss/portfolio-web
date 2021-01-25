@@ -82,7 +82,7 @@ export const Subtitle = styled.p`
   line-height: 1.3em;
   /* letter-spacing: -1.6px; */
   @media (min-width: 1485px) {
-    font-weight: 200;
+    font-weight: 100;
     font-size: 50.5px;
   }
   @media (max-height: 650px) {
