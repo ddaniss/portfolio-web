@@ -41,9 +41,9 @@ export const Title = styled.h3`
 
   margin-top: -150px;
 
-  @media (min-width: 575px) {
+  /* @media (min-width: 575px) {
     margin-top: -300px;
-  }
+  } */
   @media (min-width: 1485px) {
     padding-left: 4.3rem;
     margin-top: 0px;
@@ -60,10 +60,15 @@ export const Paragraph = styled.p`
 
   margin-top: -90px;
 
-  @media (min-width: 575px) {
+  /* @media (min-width: 575px) {
     width: 100%;
     margin-top: -250px;
   }
+
+  @media (min-width: 575px) {
+    width: 100%;
+    margin-top: -250px;
+  } */
   @media (min-width: 1485px) {
     width: 140%;
     margin: 0 auto;

@@ -6,7 +6,7 @@ export const HomeContainer = styled.section`
   color: #fff;
   display: flex;
   flex-flow: column nowrap;
-  @media (min-width: 1485px) {
+  @media (min-width: 1045px) {
     flex-flow: row-reverse;
   }
 
@@ -23,11 +23,11 @@ export const Arrow = styled(ArrowDown)`
   height: 50px;
   width: auto;
   bottom: 25px;
-  left: 42.5%;
+  left: 47%;
   position: absolute;
-  @media (min-width: 1485px) {
+  /* @media (min-width: 1045px) {
     left: 50%;
-  }
+  } */
 `;
 
 export const Container = styled.div`
@@ -35,7 +35,7 @@ export const Container = styled.div`
   place-content: center;
   height: 58.85vh;
   padding-bottom: 8.5em;
-  @media (min-width: 1485px) {
+  @media (min-width: 1045px) {
     height: calc(100vh - 100px);
     padding: 0;
     padding-left: 10em;
@@ -50,7 +50,7 @@ export const MoonContainer = styled(Container)`
   background-repeat: no-repeat;
   background-position: 40% 65%;
   height: 30vh;
-  @media (min-width: 1485px) {
+  @media (min-width: 1045px) {
     width: 70vw;
     height: calc(100vh - 100px);
     background-position: 40% 20%;
@@ -65,12 +65,11 @@ export const Title = styled.h1`
   line-height: 1.05em;
   font-family: "Playfair Display", serif;
 
-  @media (min-width: 1485px) {
-    font-size: 74px;
+  @media (min-width: 1045px) {
+    font-size: 60px;
   }
-
-  @media (max-height: 650px) {
-    font-size: 44px;
+  @media (max-width: 1350px) {
+    font-size: 40px;
   }
 `;
 
@@ -81,12 +80,11 @@ export const Subtitle = styled.p`
   font-family: "Kanit", sans-serif;
   line-height: 1.3em;
   /* letter-spacing: -1.6px; */
-  @media (min-width: 1485px) {
-    font-weight: 100;
-    font-size: 50.5px;
+  @media (min-width: 1045px) {
+    font-size: 40.5px;
   }
-  @media (max-height: 650px) {
-    font-size: 29.65px;
+  @media (max-width: 1350px) {
+    font-size: 27px;
   }
 `;
 
@@ -119,11 +117,10 @@ export const ContactButton = styled.a`
     outline-offset: -6px;
   }
 
-  @media (max-width: 1485px) {
-    font-size: inherit;
+  @media (min-width: 1045px) {
+    font-size: 16px;
   }
-
-  @media (max-height: 650px) {
-    font-size: 14px;
+  @media (max-width: 1350px) {
+    font-size: 12px;
   }
 `;
