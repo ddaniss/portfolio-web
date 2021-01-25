@@ -28,8 +28,8 @@ function Proyectos() {
               de MySQL y PHP. Con registro de usuarios y comentarios.
             </Description>
             <TechContainer>
-              <Links>Web</Links>
-              <Links>Código</Links>
+              <Links href="https://entradas.herokuapp.com/">Web</Links>
+              <Links href="https://github.com/ddaniss/entradas">Código</Links>
               <TechTitle>Tecnologías usadas:</TechTitle>
               <TechName>HTML</TechName>
               <TechName>CSS</TechName>
@@ -46,8 +46,10 @@ function Proyectos() {
               Proyecto para reforzar los conocimientos de SCSS y Javascript.
             </Description>
             <TechContainer>
-              <Links>Web</Links>
-              <Links>Código</Links>
+              <Links href="https://ddss-calculadora.netlify.app/">Web</Links>
+              <Links href="https://github.com/ddaniss/calculadora">
+                Código
+              </Links>
               <TechTitle>Tecnologías usadas:</TechTitle>
               <TechName>HTML</TechName>
               <TechName>SCSS</TechName>
@@ -64,8 +66,10 @@ function Proyectos() {
               otras varias librerías de React.
             </Description>
             <TechContainer>
-              <Links>Web</Links>
-              <Links>Código</Links>
+              <Links href="https://ddss.netlify.app/">Web</Links>
+              <Links href="https://github.com/ddaniss/portfolio-web">
+                Código
+              </Links>
               <TechTitle>Tecnologías usadas:</TechTitle>
               <TechName>React</TechName>
               <TechName>Styled Components</TechName>
