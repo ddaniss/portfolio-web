@@ -27,7 +27,7 @@ export const ProjectGallery = styled.div`
 
   padding: 0 2rem;
 
-  @media (min-width: 1485px) {
+  @media (min-width: 850px) {
     width: 60%;
     margin: 0 auto;
     /* display: grid; */
@@ -37,7 +37,7 @@ export const ProjectGallery = styled.div`
 `;
 
 export const ProjectCard = styled.div`
-  @media (min-width: 1485px) {
+  @media (min-width: 850px) {
     width: 70%;
     margin: 0 auto;
   }
