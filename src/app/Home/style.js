@@ -77,11 +77,12 @@ export const Title = styled.h1`
 export const Subtitle = styled.p`
   color: #4d4946;
   font-size: 32.65px;
-  font-weight: 200;
+  font-weight: 100;
   font-family: "Kanit", sans-serif;
   line-height: 1.3em;
   /* letter-spacing: -1.6px; */
   @media (min-width: 1485px) {
+    font-weight: 200;
     font-size: 50.5px;
   }
   @media (max-height: 650px) {
