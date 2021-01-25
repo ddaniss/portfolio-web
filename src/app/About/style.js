@@ -46,7 +46,7 @@ export const Title = styled.h3`
 `;
 
 export const Paragraph = styled.p`
-  /* font-size: 18px; */
+  font-size: 18px;
   color: #000;
   text-align: left;
   line-height: 1.5rem;
