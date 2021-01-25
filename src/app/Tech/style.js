@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const TechContainer = styled.section`
-  height: 100vh;
+  height: fit-content;
   width: 100%;
   /* background-image: url("./images/bgTech.jpg");
   background-position: start; */
@@ -55,9 +55,9 @@ export const Title = styled.h3`
   width: fit-content;
   text-justify: center;
   margin: 0 auto;
-  margin-top: -2rem;
-  margin-bottom: 3.5rem;
-  font-family: "Playfair Display", serif;
+  /* margin-top: 2rem; */
+  margin-bottom: 4.5rem;
+  font-family: "Kanit", sans-serif;
   font-weight: 100;
   @media (min-width: 575px) {
     margin-top: 2rem;

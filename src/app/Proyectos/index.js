@@ -24,8 +24,8 @@ function Proyectos() {
           <Picture src="./images/entradas-mockup.jpg" />
           <InfoContainer>
             <Description>
-              "Entradas" es un blog hecho para reforzar los conocimientos de
-              MySQL y PHP. Con registro de usuarios y comentarios.
+              <i>"Entradas"</i> es un blog hecho para reforzar los conocimientos
+              de MySQL y PHP. Con registro de usuarios y comentarios.
             </Description>
             <TechContainer>
               <Links>Web</Links>

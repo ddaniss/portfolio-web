@@ -3,7 +3,7 @@ import { GithubSquare } from "@styled-icons/fa-brands/GithubSquare";
 import { Linkedin } from "@styled-icons/bootstrap/Linkedin";
 
 export const ContactContainer = styled.section`
-  height: 88vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   background-color: #000;
@@ -43,7 +43,7 @@ export const LinksContainer = styled.div`
   display: flex;
   flex-flow: column nowrap;
   /* border: 1px solid pink; */
-  padding-top: 11rem;
+  padding-top: 3rem;
 
   @media (min-width: 1485px) {
     height: 27%;
@@ -56,8 +56,9 @@ export const Title = styled.h3`
   font-size: 46px;
   font-weight: 10;
   text-align: center;
-  margin-bottom: 1rem;
-  font-family: "Playfair Display", serif;
+  padding: 2rem 0;
+  padding-top: 5rem;
+  font-family: "Kanit", sans-serif;
   font-weight: 100;
 
   @media (min-width: 1485px) {
@@ -129,6 +130,8 @@ export const ContactLink = styled.a`
   text-align: center;
   margin: 0 auto;
   margin-top: 0.7em;
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
 
   display: grid;
   place-content: center;

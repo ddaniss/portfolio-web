@@ -48,7 +48,7 @@ export const MoonContainer = styled(Container)`
   background-size: 110%;
   background-position: start;
   background-repeat: no-repeat;
-  background-position: 40% 25%;
+  background-position: 40% 65%;
   height: 30vh;
   @media (min-width: 1485px) {
     width: 70vw;
@@ -73,7 +73,7 @@ export const Title = styled.h1`
 export const Subtitle = styled.p`
   color: #4d4946;
   font-size: 32.65px;
-  font-weight: 100;
+  font-weight: 200;
   font-family: "Kanit", sans-serif;
   line-height: 1.3em;
   /* letter-spacing: -1.6px; */

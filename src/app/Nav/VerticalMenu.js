@@ -32,10 +32,10 @@ export const VMenuItem = styled.a`
   position: relative;
 
   margin: 0 auto;
-  margin-top: 3em;
+  margin-top: 2.5em;
 
   &:nth-child(1) {
-    margin-top: 10em;
+    margin-top: 5em;
   }
 
   &:focus {
@@ -53,11 +53,11 @@ export const VMenuItem = styled.a`
     width: 0%;
   }
 
-  &:hover::after {
+  /* &:hover::after {
     width: 100%;
   }
 
   &:focus::after {
     width: 100%;
-  }
+  } */
 `;

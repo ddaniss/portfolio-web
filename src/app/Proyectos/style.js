@@ -11,10 +11,10 @@ export const ProjectsContainer = styled.section`
 export const Title = styled.h3`
   font-size: 36px;
   color: #000;
-  font-family: "Playfair Display", serif;
+  font-family: "Kanit", sans-serif;
   font-weight: 100;
   text-align: center;
-  padding: 2rem 0;
+  padding: 3rem 0;
 `;
 
 export const ProjectGallery = styled.div`
@@ -54,11 +54,12 @@ export const InfoContainer = styled.div`
 
 export const Name = styled.h4`
   margin-bottom: 1rem;
-  font-size: 30px;
+  font-size: 22px;
+  font-style: italic;
 `;
 
 export const Description = styled.p`
-  text-align: justify;
+  text-align: left;
   margin: 0.8rem 0;
 `;
 

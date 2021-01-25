@@ -5,8 +5,8 @@ import { Header, Logo, Logo2, Menu, MenuItem } from "./style";
 function Nav() {
   return (
     <Header>
-      <Logo href="#home">DS</Logo>
-      <Logo2 href="#home">DS</Logo2>
+      <Logo>DS</Logo>
+      <Logo2 href="/">DS</Logo2>
       <Burger />
       <Menu>
         <MenuItem href="#about">Sobre mí</MenuItem>
