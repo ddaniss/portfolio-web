@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.section`
-  height: 100vh;
+  height: 110vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -9,7 +9,7 @@ export const AboutContainer = styled.section`
 
   @media (min-width: 1045px) {
     flex-direction: row;
-    max-height: 100vh;
+    /* max-height: 100vh; */
   }
 `;
 
@@ -17,6 +17,7 @@ export const Container = styled.div`
   display: grid;
   place-content: center;
   height: 50vh;
+  padding: 0 2em;
   padding-top: 10em;
 
   @media (min-width: 575px) {
@@ -26,7 +27,7 @@ export const Container = styled.div`
   }
   @media (min-width: 1045px) {
     height: 100vh;
-    width: 20%;
+    width: 50%;
   }
 `;
 
@@ -35,45 +36,26 @@ export const Title = styled.h3`
   color: #000;
   font-family: "Playfair Display", serif;
   font-weight: 100;
-  /* font-style: italic; */
-  margin-bottom: 0.5em;
-  padding: 0 2rem;
+  padding-bottom: 3em;
 
   margin-top: -53%;
 
-  /* @media (min-width: 575px) {
-    margin-top: -300px;
-  } */
   @media (min-width: 1045px) {
-    padding-left: 4.3rem;
-    margin-top: 0px;
-    margin-left: -54%;
+    align-self: flex-end;
   }
 `;
 
 export const Paragraph = styled.p`
-  font-size: 18px;
+  /* font-size: 18px; */
   color: #000;
   text-align: left;
   line-height: 1.5rem;
-  padding: 0 2rem;
 
   margin-top: -40%;
 
-  /* @media (min-width: 575px) {
-    width: 100%;
-    margin-top: -250px;
-  }
-
-  @media (min-width: 575px) {
-    width: 100%;
-    margin-top: -250px;
-  } */
   @media (min-width: 1045px) {
-    width: 140%;
-    margin: 0 auto;
-    margin-top: 0px;
-    margin-left: -40%;
+    width: 70%;
+    align-self: flex-end;
   }
 `;
 

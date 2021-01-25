@@ -16,7 +16,7 @@ export const VMenu = styled.ul`
 
   display: flex;
   transform: ${({ open }) => (open ? "translateY(0)" : "translateY(-250%)")};
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.6s ease-in-out;
 
   align-items: center;
   flex-flow: column nowrap;

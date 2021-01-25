@@ -52,7 +52,7 @@ export const LinksContainer = styled.div`
 
 export const Title = styled.h3`
   color: #fff;
-  font-size: 36px;
+  font-size: 44px;
   font-weight: 100;
   text-align: center;
   padding: 2rem 0;

@@ -64,6 +64,7 @@ export const Title = styled.h1`
   font-weight: 100;
   line-height: 1.05em;
   font-family: "Playfair Display", serif;
+  white-space: nowrap;
 
   @media (min-width: 1045px) {
     font-size: 60px;
@@ -79,6 +80,8 @@ export const Subtitle = styled.p`
   font-weight: 200;
   font-family: "Kanit", sans-serif;
   line-height: 1.3em;
+  white-space: nowrap;
+
   /* letter-spacing: -1.6px; */
   @media (min-width: 1045px) {
     font-size: 40.5px;
@@ -99,7 +102,7 @@ export const ContactButton = styled.a`
   border: 0;
   padding: 0.8rem 1.5rem;
   margin-top: 1.5em;
-  width: 40%;
+  width: fit-content;
   font-weight: 400;
   font-family: "Playfair Display", serif;
 

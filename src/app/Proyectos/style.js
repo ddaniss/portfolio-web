@@ -9,7 +9,7 @@ export const ProjectsContainer = styled.section`
 `;
 
 export const Title = styled.h3`
-  font-size: 36px;
+  font-size: 44px;
   color: #000;
   font-family: "Kanit", sans-serif;
   font-weight: 100;

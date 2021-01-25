@@ -51,7 +51,7 @@ export const Name = styled.p`
 `;
 
 export const Title = styled.h3`
-  font-size: 36px;
+  font-size: 44px;
   color: #fff;
   width: fit-content;
   text-align: center;
@@ -62,10 +62,10 @@ export const Title = styled.h3`
   font-weight: 100;
   @media (min-width: 575px) {
     margin-top: 2rem;
-    font-size: 38px;
+    font-size: 44px;
   }
   @media (min-width: 1485px) {
     margin-top: 2rem;
-    font-size: 38px;
+    font-size: 44px;
   }
 `;
