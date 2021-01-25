@@ -28,8 +28,20 @@ function Proyectos() {
               de MySQL y PHP. Con registro de usuarios y comentarios.
             </Description>
             <TechContainer>
-              <Links href="https://entradas.herokuapp.com/">Web</Links>
-              <Links href="https://github.com/ddaniss/entradas">Código</Links>
+              <Links
+                href="https://entradas.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Web
+              </Links>
+              <Links
+                href="https://github.com/ddaniss/entradas"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Código
+              </Links>
               <TechTitle>Tecnologías usadas:</TechTitle>
               <TechName>HTML</TechName>
               <TechName>CSS</TechName>
@@ -46,8 +58,18 @@ function Proyectos() {
               Proyecto para reforzar los conocimientos de SCSS y Javascript.
             </Description>
             <TechContainer>
-              <Links href="https://ddss-calculadora.netlify.app/">Web</Links>
-              <Links href="https://github.com/ddaniss/calculadora">
+              <Links
+                href="https://ddss-calculadora.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Web
+              </Links>
+              <Links
+                href="https://github.com/ddaniss/calculadora"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Código
               </Links>
               <TechTitle>Tecnologías usadas:</TechTitle>
@@ -66,8 +88,18 @@ function Proyectos() {
               otras varias librerías de React.
             </Description>
             <TechContainer>
-              <Links href="https://ddss.netlify.app/">Web</Links>
-              <Links href="https://github.com/ddaniss/portfolio-web">
+              <Links
+                href="https://ddss.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Web
+              </Links>
+              <Links
+                href="https://github.com/ddaniss/portfolio-web"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Código
               </Links>
               <TechTitle>Tecnologías usadas:</TechTitle>

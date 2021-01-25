@@ -28,10 +28,18 @@ function Contacto() {
       </FormContainer>
       <LinksContainer>
         <SocialContainer>
-          <ContactLink href="https://github.com/ddaniss">
+          <ContactLink
+            href="https://github.com/ddaniss"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <GithubLink />
           </ContactLink>
-          <ContactLink href="https://www.linkedin.com/in/douglas-daniel-sulbar%C3%A1n-socas-4600b2205/">
+          <ContactLink
+            href="https://www.linkedin.com/in/douglas-daniel-sulbar%C3%A1n-socas-4600b2205/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <LinkedinLink />
           </ContactLink>
         </SocialContainer>
