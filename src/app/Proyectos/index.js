@@ -51,7 +51,7 @@ function Proyectos() {
           </InfoContainer>
         </ProjectCard>
         <ProjectCard>
-          <Name>Calculadura</Name>
+          <Name>Calculadora</Name>
           <Picture src="./images/calculadora-mockup.jpg" />
           <InfoContainer>
             <Description>
