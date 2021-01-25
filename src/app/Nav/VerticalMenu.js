@@ -8,7 +8,8 @@ export const VMenu = styled.ul`
   top: 0;
   right: 0;
 
-  height: 100vh;
+  min-height: 100vh;
+  height: fit-content;
   width: 100%;
   z-index: -10;
   list-style: none;
@@ -21,6 +22,10 @@ export const VMenu = styled.ul`
   flex-flow: column nowrap;
   position: absolute;
   left: 0;
+  /* 
+  @media (min-height: 950px) {
+    flex-flow: row wrap;
+  } */
 `;
 
 export const VMenuItem = styled.a`
