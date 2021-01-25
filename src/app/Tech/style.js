@@ -8,8 +8,8 @@ export const TechContainer = styled.section`
   background-color: #1119;
   padding: 10em 1.85em;
   margin-top: -100px;
-  @media (min-width: 1485px) {
-    max-height: 100vh;
+  @media (min-width: 1045px) {
+    /* max-height: 100vh; */
     background-color: #0000;
   }
 `;

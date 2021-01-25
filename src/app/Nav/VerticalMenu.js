@@ -14,7 +14,7 @@ export const VMenu = styled.ul`
   list-style: none;
 
   display: flex;
-  transform: ${({ open }) => (open ? "translateY(0)" : "translateY(-100%)")};
+  transform: ${({ open }) => (open ? "translateY(0)" : "translateY(-250%)")};
   transition: transform 0.8s ease-in-out;
 
   align-items: center;

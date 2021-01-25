@@ -19,7 +19,6 @@ export const ContactContainer = styled.section`
     color: #fff;
   }
   @media (min-width: 1485px) {
-    height: 100vh;
     margin-top: 100px;
   }
 `;
