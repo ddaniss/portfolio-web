@@ -53,11 +53,11 @@ export const LinksContainer = styled.div`
 
 export const Title = styled.h3`
   color: #fff;
-  font-size: 46px;
-  font-weight: 10;
+  font-size: 36px;
+  font-weight: 100;
   text-align: center;
   padding: 2rem 0;
-  padding-top: 5rem;
+  padding-top: 5.5rem;
   font-family: "Kanit", sans-serif;
   font-weight: 100;
 

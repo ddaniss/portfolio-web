@@ -54,7 +54,7 @@ export const InfoContainer = styled.div`
 
 export const Name = styled.h4`
   margin-bottom: 1rem;
-  font-size: 22px;
+  font-size: 20px;
   font-style: italic;
 `;
 

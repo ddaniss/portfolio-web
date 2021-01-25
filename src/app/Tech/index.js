@@ -26,7 +26,7 @@ function Tech() {
   return (
     <Parallax bgImage={image} strength={400}>
       <TechContainer id="tecnologías">
-        <Title>TECNOLOGÍAS QUE USO</Title>
+        <Title>Tecnologías que uso</Title>
         <IconsContainer>
           <IconContainer>
             <Html5Icon />
