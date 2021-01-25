@@ -68,6 +68,10 @@ export const Title = styled.h1`
   @media (min-width: 1485px) {
     font-size: 74px;
   }
+
+  @media (max-height: 650px) {
+    font-size: 44px;
+  }
 `;
 
 export const Subtitle = styled.p`
@@ -79,6 +83,9 @@ export const Subtitle = styled.p`
   /* letter-spacing: -1.6px; */
   @media (min-width: 1485px) {
     font-size: 50.5px;
+  }
+  @media (max-height: 650px) {
+    font-size: 29.65px;
   }
 `;
 
@@ -113,5 +120,9 @@ export const ContactButton = styled.a`
 
   @media (max-width: 1485px) {
     font-size: inherit;
+  }
+
+  @media (max-height: 650px) {
+    font-size: 14px;
   }
 `;
