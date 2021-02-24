@@ -13,16 +13,38 @@ import {
   Button,
   SocialContainer,
 } from "./style";
+import emailjs from "emailjs-com";
 
 function Contacto() {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "gmail",
+        "template_qwt48ab",
+        e.target,
+        "user_y9Bki7cGBeXoYk7GRqxXZ"
+      )
+      .then(
+        result => {
+          console.log(result.text);
+        },
+        error => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
+
   return (
     <ContactContainer id="contacto">
       <FormContainer>
         <Title>Contacto</Title>
-        <Form>
-          <Input placeholder="Nombre" type="text" />
-          <Input placeholder="Email" type="email" />
-          <Mensaje placeholder="Mensaje" />
+        <Form onSubmit={sendEmail}>
+          <Input placeholder="Nombre" type="text" name="name" />
+          <Input placeholder="Email" type="email" name="email" />
+          <Mensaje placeholder="Mensaje" name="message" />
           <Button>Enviar</Button>
         </Form>
       </FormContainer>
