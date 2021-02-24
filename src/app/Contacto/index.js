@@ -45,7 +45,7 @@ function Contacto() {
           <Input placeholder="Nombre" type="text" name="name" />
           <Input placeholder="Email" type="email" name="email" />
           <Mensaje placeholder="Mensaje" name="message" />
-          <Button>Enviar</Button>
+          <Button type="submit">Enviar</Button>
         </Form>
       </FormContainer>
       <LinksContainer>
