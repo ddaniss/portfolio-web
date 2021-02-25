@@ -60,14 +60,14 @@ function Tech() {
             <MysqlIcon />
             <Name>MySQL</Name>
           </IconContainer>
-          <IconContainer>
+          {/* <IconContainer>
             <PythonIcon />
             <Name>Python</Name>
           </IconContainer>
           <IconContainer>
             <DjangoIcon />
             <Name>Django</Name>
-          </IconContainer>
+          </IconContainer> */}
         </IconsContainer>
       </TechContainer>
     </Parallax>

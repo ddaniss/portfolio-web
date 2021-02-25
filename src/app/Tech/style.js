@@ -10,6 +10,7 @@ export const TechContainer = styled.section`
   margin-top: -100px;
   @media (min-width: 1045px) {
     /* max-height: 100vh; */
+    height: 500px;
     background-color: #0000;
   }
 `;
