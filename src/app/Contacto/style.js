@@ -101,7 +101,7 @@ export const Mensaje = styled.textarea`
   }
 `;
 
-export const Button = styled.input`
+export const Button = styled.button`
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
