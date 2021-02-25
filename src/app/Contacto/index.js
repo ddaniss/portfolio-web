@@ -22,7 +22,7 @@ function Contacto() {
     emailjs
       .sendForm(
         "gmail",
-        "template_qwt48ab",
+        "service_ws509xa",
         e.target,
         "user_y9Bki7cGBeXoYk7GRqxXZ"
       )
