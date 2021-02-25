@@ -60,14 +60,6 @@ function Tech() {
             <MysqlIcon />
             <Name>MySQL</Name>
           </IconContainer>
-          {/* <IconContainer>
-            <PythonIcon />
-            <Name>Python</Name>
-          </IconContainer>
-          <IconContainer>
-            <DjangoIcon />
-            <Name>Django</Name>
-          </IconContainer> */}
         </IconsContainer>
       </TechContainer>
     </Parallax>

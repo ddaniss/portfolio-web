@@ -6,7 +6,7 @@ export const Header = styled.nav`
   align-content: center;
 
   background-color: #000;
-  height: 100px;
+  height: 105px;
   width: 100%;
   padding: 1.5em 6em;
   /* margin-top: -100px; */
