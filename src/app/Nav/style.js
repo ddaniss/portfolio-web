@@ -12,7 +12,7 @@ export const Header = styled.nav`
   /* margin-top: -100px; */
 
   position: sticky;
-  top: 0;
+  top: -3px;
   left: 0;
   z-index: 9999;
 
