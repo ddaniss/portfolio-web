@@ -16,9 +16,8 @@ function About() {
       <Container>
         <Title>Sobre mí</Title>
         <Paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-          tristique eros at diam facilisis dignissim. Nulla arcu sem, dignissim
-          et ultrices ut, elementum eu dui.
+          He realizado el Certificado Profesional de Desarrollo de Aplicaciones
+          con Tecnologías Web. Uso React y Laravel para crear aplicaciones.
         </Paragraph>
       </Container>
     </AboutContainer>
