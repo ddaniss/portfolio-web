@@ -21,7 +21,7 @@ function Contacto() {
 
     emailjs
       .sendForm(
-        "gmail",
+        "service_ws509xa",
         "portfolio_template",
         e.target,
         "user_y9Bki7cGBeXoYk7GRqxXZ"
