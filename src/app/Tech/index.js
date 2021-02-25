@@ -7,8 +7,6 @@ import {
   JsIcon,
   PhpIcon,
   LaravelIcon,
-  PythonIcon,
-  DjangoIcon,
   LinuxIcon,
   MysqlIcon,
 } from "../../shared/icons";
@@ -60,6 +58,14 @@ function Tech() {
             <MysqlIcon />
             <Name>MySQL</Name>
           </IconContainer>
+          {/* <IconContainer>
+            <PythonIcon />
+            <Name>Python</Name>
+          </IconContainer>
+          <IconContainer>
+            <DjangoIcon />
+            <Name>Django</Name>
+          </IconContainer> */}
         </IconsContainer>
       </TechContainer>
     </Parallax>
